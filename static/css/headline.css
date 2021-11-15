@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
-#headline {
+.headline {
   padding-top: 7em;
   padding-left: 1em;
   padding-right: 1em;
@@ -16,28 +16,49 @@
   background-size: cover;
 }
 
-#headline .motto {
+#headline-home {
+  padding-top: 7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/background/headline-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headline-home .motto {
   margin-bottom: 0.5em;
 }
 
-#headline h1 {
+#headline-home h1 {
   margin-bottom: 1em;
 }
 
-#headline .description {
+#headline-home .description {
   margin-bottom: 2em;
   background: #e7e6e6d0;
   border: 4px solid #fff;
   padding: 1em;
 }
 
-#headline .date {
+#headline-home .date {
   font-family: 'Gluten', cursive;
   font-size: 1.8rem;
   margin-bottom: 0.3em;
 }
 
-#headline .location {
+#headline-home .location {
   font-size: 1.2rem;
+}
+
+#headline-about {
+  text-align: center;
 }
 /*# sourceMappingURL=headline.css.map */

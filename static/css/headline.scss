@@ -8,7 +8,20 @@ $font-family1: 'Gluten', cursive;
 $font-family2: 'Lato', sans-serif;
 //
 
-#headline {
+.headline {
+  // background-color: aqua;
+  padding-top: 7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../images/background/headline-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#headline-home {
   // background-color: aqua;
   padding-top: 7em;
   padding-left: 1em;
@@ -43,4 +56,9 @@ $font-family2: 'Lato', sans-serif;
   .location {
     font-size: 1.2rem;
   }
+}
+
+#headline-about {
+  text-align: center;
+
 }

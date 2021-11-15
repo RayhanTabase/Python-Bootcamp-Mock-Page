@@ -12,33 +12,6 @@
   margin-bottom: 2em;
 }
 
-#program-outline h2 {
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 1.2em;
-}
-
-#program-outline h2::after {
-  content: "";
-  background: #ec5242;
-  width: 2.5rem;
-  height: 0.15rem;
-  border-radius: 0.2rem;
-  margin-top: 0.6rem;
-}
-
 #program-outline .programs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,10 +21,11 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 2em;
+  row-gap: 1em;
 }
 
 #program-outline .programs .program-card {
-  background: #143774;
+  background: #373a41;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,40 +35,50 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  width: 100%;
+  height: 7em;
+  overflow: hidden;
 }
 
 #program-outline .programs .program-card .image {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   -webkit-box-ordinal-group: 1;
       -ms-flex-order: 0;
           order: 0;
-  background: yellow;
+  min-width: 15%;
+  width: 20%;
+}
+
+#program-outline .programs .program-card .image i {
+  font-size: 2rem;
 }
 
 #program-outline .programs .program-card .title {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  background: green;
+  min-width: 15%;
+  width: 30%;
   overflow: hidden;
+  max-height: 97%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: auto;
+  word-break: break-all;
+  line-height: 1rem;
 }
 
 #program-outline .programs .program-card .description {
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  background: red;
+  min-width: 40%;
+  width: 40%;
   overflow: hidden;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  word-break: break-all;
+  max-height: 97%;
 }
 
 #program-outline .vl-button {
@@ -115,5 +99,6 @@
   width: 80%;
   padding: 2em;
   margin-bottom: 2em;
+  min-height: 7em;
 }
 /*# sourceMappingURL=program.css.map */
