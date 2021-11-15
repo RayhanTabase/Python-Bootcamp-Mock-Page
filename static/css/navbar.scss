@@ -1,0 +1,60 @@
+// Constants
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap');
+$color1 : #272a31;
+$color2 :#ec5242;
+$color3 :#d3d3d3;
+$color4 :#143774;
+$font-family1: 'Gluten', cursive;
+$font-family2: 'Lato', sans-serif;
+//
+
+#top-nav {
+  display: none;
+  // @media only screen and (min-width: 992px) {
+  //   display: flex;
+  //   position: absolute;
+  //   background: black;
+  //   height: 20px;
+  //   min-height: 20px;
+  //   width: 100%;
+  //   min-width: 100%;
+  // }
+}
+
+.mobile-navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+
+  #hamburger-menu {
+    display: none;
+    width: 100%;
+    min-width: 100%;
+    padding: 1em;
+    background: wheat;
+    width: 5rem;
+    height: 5rem;
+    flex-direction: column;
+    i {
+      font-size: 2rem;
+    }
+    #open-hamburger {
+      align-self: flex-start; 
+    }
+    #close-hamburger {
+      display: none;
+      align-self: flex-end;
+    }
+  }
+
+  .nav-links {
+
+    li {
+      height: 5em;
+      border: 1px solid black;
+      padding: 1em;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #d3d3d3;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Gluten", cursive;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.2em;
+}
+
+h2::after {
+  content: "";
+  background: #ec5242;
+  width: 2.5rem;
+  height: 0.15rem;
+  border-radius: 0.2rem;
+  margin-top: 0.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+header {
+  position: absolute;
+  display: none;
+}
+
+.button-none {
+  background: none;
+  border: none;
+}
+
+.color1 {
+  color: #272a31;
+}
+
+.color2 {
+  color: #ec5242;
+}
+/*# sourceMappingURL=topography.css.map */

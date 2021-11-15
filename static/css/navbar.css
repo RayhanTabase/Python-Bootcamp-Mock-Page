@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+#top-nav {
+  display: none;
+}
+
+.mobile-navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mobile-navbar #hamburger-menu {
+  display: none;
+  width: 100%;
+  min-width: 100%;
+  padding: 1em;
+  background: wheat;
+  width: 5rem;
+  height: 5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mobile-navbar #hamburger-menu i {
+  font-size: 2rem;
+}
+
+.mobile-navbar #hamburger-menu #open-hamburger {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.mobile-navbar #hamburger-menu #close-hamburger {
+  display: none;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.mobile-navbar .nav-links li {
+  height: 5em;
+  border: 1px solid black;
+  padding: 1em;
+}
+/*# sourceMappingURL=navbar.css.map */

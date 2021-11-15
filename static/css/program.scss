@@ -1,0 +1,83 @@
+// Constants
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap');
+$color1 : #272a31;
+$color2 :#ec5242;
+$color3 :#d3d3d3;
+$color4 :#143774;
+$font-family1: 'Gluten', cursive;
+$font-family2: 'Lato', sans-serif;
+//
+
+#program-outline {
+  background: $color1;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+
+ h2{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 1.2em;
+
+   &::after {
+    content: "";
+    background: $color2;
+    width: 2.5rem;
+    height: 0.15rem;
+    border-radius: 0.2rem;
+    margin-top: 0.6rem;
+   }
+ }
+
+ .programs {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 2em;
+
+   .program-card {
+     background: #143774;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     .image {
+       flex:1;
+       order: 0;
+       background: yellow;
+     }
+
+     .title {
+       flex: 2;
+       order: 1;
+       background: green;
+       overflow: hidden;
+
+     }
+
+     .description {
+       flex: 3;
+       order: 2;
+       background: red;
+       overflow: hidden;
+       flex-wrap: wrap;
+     }
+   }
+ }
+ .vl-button {
+    font-family: $font-family1;
+    background: $color2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+
+}
