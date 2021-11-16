@@ -1,0 +1,59 @@
+// Constants
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap');
+$color1 : #272a31;
+$color2 :#ec5242;
+$color3 :#d3d3d3;
+$color4 :#143774;
+$font-family1: 'Gluten', cursive;
+$font-family2: 'Lato', sans-serif;
+//
+
+#past-bootCamps {
+  border-top: 2px solid $color3;
+  padding-top: 2em;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+
+  .section-description {
+    line-height: 1.5rem;
+    margin-bottom: 2em;
+  }
+
+  .previousBootCamps {
+    .prevBoot {
+      background:linear-gradient(to right, #e4695bbb, #ec5342d5);
+      width: 100%;
+      height: 16em;
+      margin-bottom: 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .date {
+        margin-bottom: 0.5em;
+        font-size: 2rem;
+        font-family: $font-family1;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 592px) {
+  #past-bootCamps {
+    padding-top: 4em;
+    margin-bottom: 4em;
+
+    .previousBootCamps {
+      display: flex;
+      justify-content: center;
+      column-gap: 1.4em;
+      .prevBoot {
+        width: 30%;
+      }
+    }
+  }
+
+}
