@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+#about-logo-selection {
+  padding: 3em 1em 1em 1em;
+  text-align: center;
+  background: #f0f0f0a1;
+}
+
+#about-logo-selection .logo {
+  height: 15em;
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+#about-logo-selection .logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 80%;
+  width: 60%;
+  border: 1px solid #d3d3d3;
+  padding: 1.3em;
+}
+
+@media only screen and (min-width: 992px) {
+  .logo img {
+    width: 30%;
+    max-width: 30%;
+  }
+}
+/*# sourceMappingURL=about-logo.css.map */

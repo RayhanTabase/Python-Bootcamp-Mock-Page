@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+#past-bootCamps {
+  border-top: 2px solid #d3d3d3;
+  padding-top: 2em;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+}
+
+#past-bootCamps .section-description {
+  line-height: 1.5rem;
+  margin-bottom: 2em;
+}
+
+#past-bootCamps .previousBootCamps .prevBoot {
+  background: -webkit-gradient(linear, left top, right top, from(#e4695bbb), to(#ec5342d5));
+  background: linear-gradient(to right, #e4695bbb, #ec5342d5);
+  width: 100%;
+  height: 16em;
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#past-bootCamps .previousBootCamps .prevBoot .date {
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  font-family: "Gluten", cursive;
+}
+
+@media only screen and (min-width: 592px) {
+  #past-bootCamps {
+    padding-top: 4em;
+    margin-bottom: 4em;
+  }
+  #past-bootCamps .previousBootCamps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 1.4em;
+            column-gap: 1.4em;
+  }
+  #past-bootCamps .previousBootCamps .prevBoot {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=previous.css.map */

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+#partners {
+  padding: 1em 1em 1em 1em;
+  background: #373a41;
+  color: #fff;
+}
+
+#partners .partners-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 2em;
+          column-gap: 2em;
+  row-gap: 1em;
+  padding: 1em;
+}
+
+#partners .partners-list li {
+  width: 4em;
+}
+
+#footer-bottom {
+  padding: 2em 2em 1em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 2em;
+          column-gap: 2em;
+  background: #e4e4e4;
+}
+
+#footer-bottom .logo {
+  max-width: 30%;
+  height: 5em;
+}
+
+#footer-bottom .logo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 70%;
+  width: 70%;
+}
+
+#footer-bottom .text {
+  line-height: 1.2em;
+}
+
+@media only screen and (min-width: 992px) {
+  #footer-bottom {
+    padding: 2em 4em 1em 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 4em;
+            column-gap: 4em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer-bottom .logo {
+    height: 80%;
+    max-height: 80%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footer-bottom .logo img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    max-height: 60%;
+  }
+  #footer-bottom .text {
+    line-height: 1.5rem;
+  }
+  #footer-bottom .text p {
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

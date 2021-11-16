@@ -9,7 +9,6 @@ $font-family2: 'Lato', sans-serif;
 //
 
 .headline {
-  // background-color: aqua;
   padding-top: 7em;
   padding-left: 1em;
   padding-right: 1em;
@@ -22,16 +21,6 @@ $font-family2: 'Lato', sans-serif;
 }
 
 #headline-home {
-  // background-color: aqua;
-  padding-top: 7em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-image: url('../images/background/headline-mobile.jpg');
-  background-repeat: no-repeat;
-  background-size:cover;
 
   .motto {
     margin-bottom: 0.5em;
@@ -52,6 +41,7 @@ $font-family2: 'Lato', sans-serif;
     font-family: 'Gluten', cursive;
     font-size: 1.8rem;
     margin-bottom: 0.3em;
+    font-weight: 700;
   }
   .location {
     font-size: 1.2rem;
@@ -61,4 +51,88 @@ $font-family2: 'Lato', sans-serif;
 #headline-about {
   text-align: center;
 
+  .motto {
+    margin-bottom: 0.5em;
+
+  }
+
+  .title{
+    margin-bottom: 1em;
+
+  }
+
+  .description {
+    margin-bottom: 1.5em ;
+    border: 2px solid rgb(151, 151, 151);
+    background: rgba(255, 255, 255, 0.877);
+    padding: 1em;
+
+  }
+
+  .contact {
+    line-height: 1.7rem;
+    b {
+      line-height: 3rem;
+      font-weight: 700;
+      font-family: $font-family1;
+      font-size: 1rem;
+      text-decoration: underline;
+      text-underline-offset: 0.25rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .headline {
+    padding-top: 15em;
+    padding-left: 12em;
+    padding-right: 12em;
+  }
+
+  #headline-home {
+    .motto {
+      font-size: 2rem;
+    }
+  
+    h1 {
+      margin-bottom: 0.5em;
+    }
+  
+    .description {
+      margin-bottom: 1.5em;
+      padding: 2em;
+      width: 50%;
+      max-width: 50%;
+    }
+  
+    .date {
+      font-size: 2.4rem;
+      margin-bottom: 0.3em;
+    }
+    .location {
+      font-size: 1.5rem;
+    }
+  }
+  
+  #headline-about {
+    align-items: center;
+
+    .motto {
+      margin-bottom: 0.5em;
+      font-size: 2rem;
+    }
+
+    .title{
+      margin-bottom: 1em;
+    }
+
+    .description {
+      margin-bottom: 2em ;
+      padding: 2em;
+      width: 60%;
+    }
+  }
+
+  
 }

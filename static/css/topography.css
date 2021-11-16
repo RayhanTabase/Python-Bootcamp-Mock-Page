@@ -10,7 +10,7 @@
 
 body {
   font-family: "Lato", sans-serif;
-  color: #d3d3d3;
+  color: #272a31;
 }
 
 h1,
@@ -59,11 +59,7 @@ h3 {
 
 p {
   font-size: 1rem;
-}
-
-header {
-  position: absolute;
-  display: none;
+  font-weight: 600;
 }
 
 .button-none {
@@ -77,5 +73,22 @@ header {
 
 .color2 {
   color: #ec5242;
+}
+
+@media only screen and (min-width: 992px) {
+  h1,
+  h2,
+  h3 {
+    line-height: 3rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
 }
 /*# sourceMappingURL=topography.css.map */

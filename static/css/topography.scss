@@ -18,7 +18,7 @@ $font-family2: 'Lato', sans-serif;
 
 body {
   font-family: "Lato", sans-serif;
-  color: #d3d3d3;
+  color: $color1;
 }
 
 h1,
@@ -58,11 +58,7 @@ h3 {
 
 p {
   font-size: 1rem;
-}
-
-header {
-  position: absolute;
-  display: none;
+  font-weight: 600;
 }
 
 .button-none {
@@ -76,4 +72,25 @@ header {
 
 .color2 {
   color: $color2;
+}
+
+@media only screen and (min-width: 992px) {
+  h1,
+  h2,
+  h3 {
+    line-height: 3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+ 
 }
