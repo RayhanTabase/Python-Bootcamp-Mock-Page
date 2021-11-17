@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+header {
+  position: fixed;
+  width: 100%;
+  min-width: 100%;
+}
+
+#top-nav {
+  display: none;
+}
+
 .large-navbar {
   display: none;
 }
 
 .mobile-navbar {
   background: #d3d3d3b0;
-  position: fixed;
   width: 100%;
   z-index: 2000;
 }
@@ -65,12 +74,55 @@
 }
 
 @media only screen and (min-width: 992px) {
+  #top-nav {
+    display: block;
+    height: 3em;
+    min-height: 3em;
+    max-height: 3em;
+    background: #272a31;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 5.5em;
+  }
+  #top-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 2em;
+            column-gap: 2em;
+    height: 100%;
+  }
+  #top-nav ul li {
+    min-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #top-nav ul .social-media {
+    -webkit-column-gap: 1em;
+            column-gap: 1em;
+  }
   .mobile-navbar {
     display: none;
   }
   .large-navbar {
     background: rgba(255, 255, 255, 0.753);
-    position: fixed;
     width: 100%;
     z-index: 2000;
     height: 5rem;
@@ -163,4 +215,4 @@
             align-items: center;
   }
 }
-/*# sourceMappingURL=navbar.css.map */
+/*# sourceMappingURL=header.css.map */

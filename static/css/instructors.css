@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+#featured-instructors {
+  padding-top: 1.2em;
+}
+
+#featured-instructors h2 {
+  margin-bottom: 3em;
+}
+
+#featured-instructors .instructors-list {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+}
+
+#featured-instructors .instructors-list .instructor-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 13em;
+  max-height: 13em;
+  margin-bottom: 2em;
+  -webkit-column-gap: 5%;
+          column-gap: 5%;
+}
+
+#featured-instructors .instructors-list .instructor-card .image {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  width: 40%;
+  max-width: 40%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 5%;
+}
+
+#featured-instructors .instructors-list .instructor-card .image img {
+  height: 95%;
+  max-height: 95%;
+  width: 95%;
+  max-width: 95%;
+  min-width: 95%;
+  min-height: 95%;
+}
+
+#featured-instructors .instructors-list .instructor-card .text {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 55%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#featured-instructors .instructors-list .instructor-card .text .job {
+  font-style: italic;
+  color: #ec5242;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 0.8rem;
+  margin-bottom: 0.4em;
+}
+
+#featured-instructors .instructors-list .instructor-card .text .job::after {
+  content: "";
+  background: #d3d3d3;
+  width: 2rem;
+  height: 0.1rem;
+  border-radius: 0.2rem;
+  margin-top: 0.4rem;
+}
+
+#featured-instructors .instructors-list .instructor-card .text .details {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 992px) {
+  #featured-instructors {
+    padding-top: 2.5em;
+    margin-bottom: 8em;
+  }
+  #featured-instructors .instructors-list {
+    padding-left: 12em;
+    padding-right: 12em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #featured-instructors .instructors-list .instructor-card {
+    height: 15em;
+    max-height: 15em;
+  }
+  #featured-instructors .instructors-list .instructor-card .image img {
+    height: 95%;
+    max-height: 95%;
+    width: 95%;
+    max-width: 95%;
+    min-width: 95%;
+    min-height: 95%;
+  }
+  #featured-instructors .instructors-list .instructor-card .text {
+    width: 55%;
+  }
+  #featured-instructors .instructors-list .instructor-card .text .name {
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  #featured-instructors .instructors-list .instructor-card .text .job {
+    font-style: italic;
+    color: #ec5242;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  #featured-instructors .instructors-list .instructor-card .text .job::after {
+    content: "";
+    background: #d3d3d3;
+    width: 2rem;
+    height: 0.1rem;
+    border-radius: 0.2rem;
+    margin-top: 0.4rem;
+  }
+  #featured-instructors .instructors-list .instructor-card .text .details {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=instructors.css.map */

@@ -23,7 +23,7 @@ $font-family2: 'Lato', sans-serif;
 
   .previousBootCamps {
     .prevBoot {
-      background:linear-gradient(to right, #e4695bbb, #ec5342d5);
+      background:linear-gradient(to right, #a82617b0, #ec5342d5);
       width: 100%;
       height: 16em;
       margin-bottom: 2em;
@@ -31,6 +31,20 @@ $font-family2: 'Lato', sans-serif;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
+      color: #fff;
+
+      img {
+        position: absolute;
+        padding-left: 2em;
+        padding-right: 2em;
+        z-index: -100;
+        max-width: 100%;
+        height: 16em;
+        max-height: 16em;
+        min-height: 16em;
+        object-fit: cover;
+      }
 
       .date {
         margin-bottom: 0.5em;

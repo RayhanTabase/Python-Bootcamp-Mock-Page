@@ -15,7 +15,7 @@ $font-family2: 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url('../images/background/headline-mobile.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../images/background/headline-mobile.jpg');
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -88,6 +88,7 @@ $font-family2: 'Lato', sans-serif;
     padding-top: 15em;
     padding-left: 12em;
     padding-right: 12em;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../images/background/head2.jpg');
   }
 
   #headline-home {

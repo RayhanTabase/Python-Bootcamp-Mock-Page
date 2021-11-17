@@ -78,7 +78,6 @@
   min-width: 40%;
   width: 40%;
   overflow: hidden;
-  word-break: break-all;
   max-height: 97%;
 }
 
@@ -148,7 +147,7 @@
     width: 15em;
     min-width: 15%;
     min-height: 16em;
-    height: 20em;
+    height: 17em;
     overflow: hidden;
     -webkit-transition: 0.1s;
     transition: 0.1s;

@@ -20,12 +20,8 @@
       flex-wrap: wrap;
   -webkit-column-gap: 2em;
           column-gap: 2em;
-  row-gap: 1em;
+  row-gap: 2em;
   padding: 1em;
-}
-
-#partners .partners-list li {
-  width: 4em;
 }
 
 #footer-bottom {
