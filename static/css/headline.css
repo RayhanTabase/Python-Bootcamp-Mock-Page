@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+
 .headline {
   padding-top: 7em;
   padding-left: 1em;
   padding-right: 1em;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 100vh;
-  background-image: url("../images/background/headline-mobile.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("../images/background/headline-mobile.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/background/headline-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -79,42 +80,52 @@
     padding-top: 15em;
     padding-left: 12em;
     padding-right: 12em;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("../images/background/head2.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/background/head2.jpg");
   }
+
   #headline-home .motto {
     font-size: 2rem;
   }
+
   #headline-home h1 {
     margin-bottom: 0.5em;
   }
+
   #headline-home .description {
     margin-bottom: 1.5em;
     padding: 2em;
     width: 50%;
     max-width: 50%;
   }
+
   #headline-home .date {
     font-size: 2.4rem;
     margin-bottom: 0.3em;
   }
+
   #headline-home .location {
     font-size: 1.5rem;
   }
+
   #headline-about {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   #headline-about .motto {
     margin-bottom: 0.5em;
     font-size: 2rem;
   }
+
   #headline-about .title {
     margin-bottom: 1em;
   }
+
   #headline-about .description {
     margin-bottom: 2em;
     padding: 2em;
     width: 60%;
   }
 }
-/*# sourceMappingURL=headline.css.map */
