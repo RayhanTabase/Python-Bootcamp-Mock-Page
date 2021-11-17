@@ -31,7 +31,7 @@
   padding: 1.3em;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .logo img {
     width: 30%;
     max-width: 30%;

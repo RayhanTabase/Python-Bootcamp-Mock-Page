@@ -72,7 +72,7 @@ header {
   font-family: "Gluten", cursive;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   #top-nav {
     height: 3em;
     min-height: 3em;

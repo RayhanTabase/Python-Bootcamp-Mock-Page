@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./static/images/readme/hamburger-menu.jpg)
 
 Additional description about the project and its features.
 
@@ -68,7 +68,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - UI Design Credits:  [Cindy Shin in Behance](https://www.behance.net/adagio07)
-- Inspired by Microverse Program
+- Images source: [Unsplash](https://unsplash.com) 
 
 ## 📝 License
 

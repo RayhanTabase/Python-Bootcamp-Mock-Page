@@ -75,7 +75,7 @@
   text-underline-offset: 0.25rem;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .headline {
     padding-top: 15em;
     padding-left: 12em;

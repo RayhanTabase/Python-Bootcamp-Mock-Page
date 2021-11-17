@@ -52,7 +52,7 @@
   line-height: 1.2em;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   #footer-bottom {
     padding: 2em 4em 1em 1em;
     display: -webkit-box;

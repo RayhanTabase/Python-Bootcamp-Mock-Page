@@ -76,7 +76,7 @@ p {
   color: #ec5242;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   h1,
   h2,
   h3 {

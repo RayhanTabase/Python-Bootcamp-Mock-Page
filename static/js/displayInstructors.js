@@ -2,6 +2,9 @@ import instructors from './instructors.js';
 
 const instructorsSection = document.querySelector('#featured-instructors');
 export default function displayInstructors() {
+  if (! instructorsSection) {
+    return
+  }
   const listContainer = document.createElement('ul');
   listContainer.className = 'instructors-list';
 
