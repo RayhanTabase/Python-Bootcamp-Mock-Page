@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+
 #past-bootCamps {
   border-top: 2px solid #d3d3d3;
   padding-top: 2em;
@@ -20,18 +21,17 @@
   height: 16em;
   margin-bottom: 2em;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   overflow: hidden;
   color: #fff;
 }
@@ -46,7 +46,7 @@
   max-height: 16em;
   min-height: 16em;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 #past-bootCamps .previousBootCamps .prevBoot .date {
@@ -60,18 +60,18 @@
     padding-top: 4em;
     margin-bottom: 4em;
   }
+
   #past-bootCamps .previousBootCamps {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-column-gap: 1.4em;
-            column-gap: 1.4em;
+    column-gap: 1.4em;
   }
+
   #past-bootCamps .previousBootCamps .prevBoot {
     width: 30%;
   }
 }
-/*# sourceMappingURL=previous.css.map */

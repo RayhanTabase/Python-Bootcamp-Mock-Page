@@ -1,7 +1,7 @@
-import instructors from "./instructors.js";
+import instructors from './instructors.js';
 
 const instructorsSection = document.querySelector('#featured-instructors');
-export default function displayInstructors(){
+export default function displayInstructors() {
   const listContainer = document.createElement('ul');
   listContainer.className = 'instructors-list';
 
@@ -17,8 +17,8 @@ export default function displayInstructors(){
       <div class="image">
         <img src="${instructor.image}" alt="${instructor.name}">
       </div>
-    `
+    `;
     listContainer.appendChild(instructorCard);
-  })
+  });
   instructorsSection.appendChild(listContainer);
 }
