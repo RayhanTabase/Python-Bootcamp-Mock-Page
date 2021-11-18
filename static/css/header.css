@@ -15,7 +15,7 @@ header {
 }
 
 .mobile-navbar {
-  background: #d3d3d3b0;
+  background: #f1f1f1;
   width: 100%;
   z-index: 2000;
 }
@@ -125,7 +125,7 @@ header {
   }
 
   .large-navbar {
-    background: rgba(255, 255, 255, 0.753);
+    background: rgb(248, 248, 248);
     width: 100%;
     z-index: 2000;
     height: 5rem;
