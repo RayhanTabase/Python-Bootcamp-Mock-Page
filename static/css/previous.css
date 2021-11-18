@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@600;700&family=Lato:wght@300&display=swap");
+
+#past-bootCamps {
+  border-top: 2px solid #d3d3d3;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#past-bootCamps .section-description {
+  line-height: 1.5rem;
+  margin-bottom: 2em;
+}
+
+#past-bootCamps .previousBootCamps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#past-bootCamps .previousBootCamps .prevBoot {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#a82617b0), to(#ec5342d5));
+  background: linear-gradient(to right, #a82617b0, #ec5342d5);
+  width: 100%;
+  min-width: 100%;
+  height: 16em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#past-bootCamps .previousBootCamps .prevBoot .image {
+  width: calc(100% - 4em);
+  height: 16em;
+  z-index: -300;
+  position: absolute;
+}
+
+#past-bootCamps .previousBootCamps .prevBoot img {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#past-bootCamps .previousBootCamps .prevBoot .date {
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  font-family: "Gluten", cursive;
+}
+
+@media only screen and (min-width: 768px) {
+  #past-bootCamps {
+    padding-top: 4em;
+    margin-bottom: 4em;
+  }
+
+  #past-bootCamps .previousBootCamps {
+    flex-direction: row;
+    column-gap: 3em;
+  }
+
+  #past-bootCamps .previousBootCamps .prevBoot {
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+  }
+
+  #past-bootCamps .previousBootCamps .prevBoot .image {
+    width: calc(30% - 1.4em);
+  }
+}
