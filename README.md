@@ -4,7 +4,7 @@
 
 > A page displaying a python bootcamp; its details, programs outline, time and instructors.
 
-###ScreenShots
+### ScreenShots
 
 ![screenshot](./static/images/readme/pc.jpeg)
 
@@ -15,6 +15,7 @@
 ![screenshot](./static/images/readme/program.jpeg)
 
 ![screenshot](./static/images/readme/instructors.jpeg)
+
 
 
 ## Built With
