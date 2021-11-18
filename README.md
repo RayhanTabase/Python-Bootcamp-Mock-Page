@@ -1,18 +1,27 @@
-# SA Python Bootcamp
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Python Bootcamp
 
-> One paragraph statement about the project.
+> A page displaying a python bootcamp; its details, programs outline, time and instructors.
 
-![screenshot](./static/images/readme/hamburger-menu.jpg)
+###ScreenShots
 
-Additional description about the project and its features.
+![screenshot](./static/images/readme/pc.jpeg)
+
+![screenshot](./static/images/readme/hamburger-menu.jpeg)
+
+![screenshot](./static/images/readme/headline.jpeg)
+
+![screenshot](./static/images/readme/program.jpeg)
+
+![screenshot](./static/images/readme/instructors.jpeg)
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, JavaScript, CSS
+- No Frameworks Used
+- Tools used - Git(version control), WebHint(linting tool), Stylelint(style linting), ESLint(Javascript linting)
 
 ## Live Demo
 
@@ -21,35 +30,23 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps.**
 
 ### Prerequisites
-
-### Setup
+- A text editor(preferably Visual Studio Code)
 
 ### Install
+-  [Git](https://git-scm.com/downloads)
+-  [Node](https://nodejs.org/en/download/)
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the repository using  ```git clone https://github.com/RayhanTabase/Python-Bootcamp-Mock-Page.git```
+-  cd into the project folder
+-  Run npm install
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+👤 **Salim Abdulai**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
