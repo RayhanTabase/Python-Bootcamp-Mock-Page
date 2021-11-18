@@ -24,6 +24,10 @@
 - No Frameworks Used
 - Tools used - Git(version control), WebHint(linting tool), Stylelint(style linting), ESLint(Javascript linting)
 
+## Project Demo Presentation
+
+[Loom Demo Link](https://www.loom.com/share/353ae7a5db834d128eab8c30bcfd2bdd)
+
 ## Live Demo
 
 [Live Demo Link](https://rayhantabase.github.io/Python-Bootcamp-Mock-Page/)
