@@ -59,6 +59,12 @@
 
 #headline-about .title {
   margin-bottom: 1em;
+  background: linear-gradient(rgba(119, 2, 2, 0.5), rgba(231, 3, 3, 0.5)), url("../images/instructors/joseph.jpg");
+  background-clip: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: text;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
 }
 
 #headline-about .description {
